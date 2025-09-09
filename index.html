@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page - Ibrahim Tahir</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Welcome to My Interactive Page</h1>
+  <p>By Ibrahim Tahir Enesi</p>
+
+  <!-- Part 1: Event Handling Example -->
+  <button id="toggleBtn">Toggle Dark Mode</button>
+
+  <!-- Part 2: Interactive Feature Example -->
+  <div class="counter-section">
+    <p>Counter: <span id="count">0</span></p>
+    <button id="increaseBtn">Increase</button>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <!-- Collapsible FAQ -->
+  <div class="faq">
+    <h3 id="faqTitle">What is JavaScript? (Click to toggle)</h3>
+    <p id="faqAnswer" style="display:none;">
+      JavaScript is a programming language used to add interactivity to web pages.
+    </p>
+  </div>
+
+  <!-- Part 3: Form Validation -->
+  <h2>Register Form</h2>
+  <form id="registerForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Error / Success message area -->
+  <div id="formMessage"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
